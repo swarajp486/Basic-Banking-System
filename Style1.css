@@ -1,0 +1,174 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("https://www.doughroller.net/wp-content/uploads/201…/largest-banks-in-the-world-648x364-c-default.jpg");
+  font-family: sans-serif;
+  width: 100vh;
+  width: 100vw;
+}
+.menu {
+  width: 100vw;
+  background-color: blue;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  
+  align-items: center;
+ 
+ 
+}
+.imga{
+  float: left;
+
+}
+img {
+  width: 70px;
+  height: 70px;
+}
+
+ul {
+   float: right;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 2rem;
+   box-shadow: 0 0 10px blue;
+}
+
+ul li {
+  list-style: none;
+  width: 70px;
+  height: 70px;
+  padding: 5px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0096FF;
+  
+  
+}
+
+ul li a{
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+
+}
+
+ul li a:hover{
+  color: orange;
+  text-decoration: none;
+  align-items: center;
+
+}
+
+
+/*---banner section--*/
+#main {
+  text-align: center;
+  background-color: #0096FF;
+  color: #fff;
+  padding-top: 10%;
+}
+
+.container h1 img {
+  padding-bottom: 10px;
+}
+
+/*---service section---*/
+#features1 {
+  text-align: center;
+  padding: 10% 15%;
+}
+
+#features {
+  text-align: center;
+  padding: 10% 15%;
+  background-image: url('file:///C:/Users/hp/Desktop/imgres.htm');
+}
+
+.features1 h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.features h3 {
+  padding: 5px;
+  margin-top: 25px;
+  text-transform: uppercase;
+}
+
+.title::before {
+  content: '';
+  background: #e9ec40;
+  height: 5px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transform: translatey(63px);
+}
+
+.title::after {
+  content: '';
+  background: #e3e709;
+  height: 10px;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+  display: block;
+  transform: translatey(8px);
+}
+
+#features .btn-primary {
+  box-shadow: none;
+  padding: 10px 25px;
+  border: none;
+  align-content: center;
+  background-image: linear-gradient(to right, #9cba17, #5ed7e7)
+}
+
+/* Action*/
+#action {
+  background-color: #0096FF;
+  padding: 7% 15%;
+  text-align: center;
+  line-height: 1.5;
+  color: rgb(250, 246, 246);
+}
+
+.main {
+  font-size: 3rem;
+  line-height: 1.5;
+  padding: 10px 0px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* footer */
+#footer {
+  width: 100vw;
+  margin: 0;
+  background-color: #0096FF;
+  color: #fff;
+  padding: 0;
+  text-align: center;
+}
